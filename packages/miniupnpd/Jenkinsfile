@@ -28,4 +28,4 @@ def pkgList = [
 ]
 
 // Start package build using library function from https://github.com/vyos/vyos-build
-buildPackage('MiniUPnPd', pkgList, null, true, "**/packages/miniupnpd/*")
+buildPackage('MiniUPnPd', pkgList, null, false, "**/packages/miniupnpd/*")
